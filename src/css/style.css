@@ -1,183 +1,219 @@
 /*Fonts famali*/
 .abhaya-libre-extrabold {
-  font-family: "Abhaya Libre", serif;
-  font-weight: 800;
-  font-style: normal;
+	font-family: "Abhaya Libre", serif;
+	font-weight: 800;
+	font-style: normal;
 }
+
 .explora-regular {
-  font-family: "Explora", serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Explora", serif;
+	font-weight: 400;
+	font-style: normal;
 }
+
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
+
 /*Basic setting*/
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
+
 body {
-  margin: 0 auto;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Montserrat", sans-serif;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, #734481), color-stop(16.12%, #3d285e), color-stop(100%, #dbb0b7), to(#a25c90));
-  background: linear-gradient(180deg, #734481 0.01%, #3d285e 16.12%, #dbb0b7 100%, #a25c90 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
+	margin: 0 auto;
+	width: 39rem;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "Montserrat", sans-serif;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, #734481), color-stop(16.12%, #3d285e), color-stop(100%, #dbb0b7), to(#a25c90));
+	background: linear-gradient(180deg, #734481 0.01%, #3d285e 16.12%, #dbb0b7 100%, #a25c90 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
 }
+
 html {
-  font-size: 10px;
+	font-size: 10px;
 }
+
 h1,
 h2,
 h3,
 p,
 a {
-  color: #fff;
+	color: #fff;
 }
+
 h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	font-weight: 400;
 }
+
 .discription {
-  margin: 0rem 2rem;
+	margin: 0rem 2rem;
 }
+
 /*header*/
 header {
-  background: url(../img/bg.png) bottom 4.5rem right -6.5rem no-repeat;
+	background: url(../img/bg.png) bottom 4.5rem right -6.5rem no-repeat;
 }
+
 .header {
-  position: relative;
-  margin-top: 8rem;
+	position: relative;
+	margin-top: 8rem;
 }
+
 .header h1 {
-  text-align: center;
-  font-family: "Abhaya Libre", serif;
-  font-weight: 800;
-  font-size: 13rem;
+	text-align: center;
+	font-family: "Abhaya Libre", serif;
+	font-weight: 800;
+	font-size: 13rem;
 }
+
 .header h1 span {
-  font-size: 6.4rem;
-  vertical-align: middle;
+	font-size: 6.4rem;
+	vertical-align: middle;
 }
+
 .header p {
-  position: absolute;
-  left: 22rem;
-  top: 10.5rem;
-  font-family: "Explora", serif;
-  font-size: 3rem;
+	position: absolute;
+	left: 22rem;
+	top: 10.5rem;
+	font-family: "Explora", serif;
+	font-size: 3rem;
 }
+
 .header-img {
-  width: 100%;
+	width: 100%;
 }
+
 .header-img img {
-  width: 100%;
+	width: 100%;
 }
+
 /*details*/
 .details {
-  margin-top: 3.3rem;
-  text-align: center;
+	margin-top: 3.3rem;
+	text-align: center;
 }
+
 .details-title {
-  font-size: 1.8rem;
+	font-size: 1.8rem;
 }
+
 .details-subtitle {
-  margin-top: 5.5rem;
-  font-size: 1.2rem;
+	margin-top: 5.5rem;
+	font-size: 1.2rem;
 }
+
 /*about*/
 .about {
-  margin-bottom: 1.9rem;
+	margin-bottom: 1.9rem;
 }
+
 .about h2 {
-  margin-top: 6.8rem;
-  margin-bottom: 1.5rem;
+	margin-top: 6.8rem;
+	margin-bottom: 1.5rem;
 }
+
 .content {
-  font-size: 1.4rem;
-  line-height: 1.7rem;
-  font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	font-weight: 400;
 }
+
 .content span {
-  font-size: 1.6rem;
+	font-size: 1.6rem;
 }
+
 .color {
-  color: #ff0000;
+	color: #ff0000;
 }
+
 .help {
-  margin-top: 3.9rem;
-  margin-bottom: 2.5rem;
+	margin-top: 3.9rem;
+	margin-bottom: 2.5rem;
 }
+
 .price h2 {
-  margin-bottom: 1.3rem;
+	margin-bottom: 1.3rem;
 }
+
 /*акордион*/
 .tab input,
 .tab-content {
-  display: none;
+	display: none;
 }
+
 .tab {
-  margin-bottom: 10px;
-  margin-left: 4.6rem;
-  margin-right: 7.2rem;
-  border: 1px solid #e9eaec;
-  color: #ffff;
+	margin-bottom: 10px;
+	margin-left: 4.6rem;
+	margin-right: 7.2rem;
+	border: 1px solid #e9eaec;
+	color: #ffff;
 }
+
 .tab-title {
-  position: relative;
-  display: block;
-  padding: 10px;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.7rem;
-  color: #fff;
-  cursor: pointer;
-  /* Вид курсора */
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	color: #fff;
+	cursor: pointer;
+	/* Вид курсора */
 }
+
 .tab-title::after {
-  position: absolute;
-  top: 50%;
-  left: 93%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  font-weight: 800;
-  content: '+';
+	position: absolute;
+	top: 50%;
+	left: 93%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	font-weight: 800;
+	content: '+';
 }
+
 .tab-content {
-  margin: 1.1rem 0.9rem 1.2rem 0.9rem;
-  /* Поля вокруг текста */
+	margin: 1.1rem 0.9rem 1.2rem 0.9rem;
+	/* Поля вокруг текста */
 }
-.tab :checked + .tab-title::after {
-  content: 'х';
-  font-weight: 300;
-  opacity: 0.5;
+
+.tab :checked+.tab-title::after {
+	content: 'х';
+	font-weight: 300;
+	opacity: 0.5;
 }
-.tab :checked ~ .tab-content {
-  display: block;
-  /* Показываем содержимое */
+
+.tab :checked~.tab-content {
+	display: block;
+	/* Показываем содержимое */
 }
+
 .price-list {
-  font-size: 1.2rem;
-  font-weight: 500;
+	font-size: 1.2rem;
+	font-weight: 500;
 }
+
 .price-list-discription {
-  font-weight: 400;
+	font-weight: 400;
 }
+
 /*footer*/
 footer p {
-  margin-top: 2.4rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.5;
+	margin-top: 2.4rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5;
 }
