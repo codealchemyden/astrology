@@ -63,8 +63,7 @@ header {
   margin-top: 8rem;
 }
 .header h1 {
-  margin-left: 2.5rem;
-  margin-right: 1.8rem;
+  text-align: center;
   font-family: "Abhaya Libre", serif;
   font-weight: 800;
   font-size: 13rem;
