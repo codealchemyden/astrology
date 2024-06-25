@@ -152,20 +152,22 @@ header {
 }
 
 /*акордион*/
-.tab input,
-.tab-content {
-	display: none;
+ul {
+  list-style: none;
 }
 
-.tab {
-	margin-bottom: 10px;
-	margin-left: 4.6rem;
-	margin-right: 7.2rem;
-	border: 1px solid #e9eaec;
-	color: #ffff;
-}
 
-.tab-title {
+.accordion-menu li.open .dropdownlink {
+  color: #ffffff;
+  .fa-chevron-down {
+    transform: rotate(45deg);
+		opacity: 0.7;
+  }
+}
+.accordion-menu li:last-child .dropdownlink {
+  border-bottom: 0;
+}
+.dropdownlink {
 	position: relative;
 	display: block;
 	padding: 10px;
@@ -174,41 +176,40 @@ header {
 	line-height: 1.7rem;
 	color: #fff;
 	cursor: pointer;
-	/* Вид курсора */
+  transition: all 0.4s ease-out;
+  i {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+  }
+  .fa-chevron-down {
+    right: 12px;
+    left: auto;
+  }
 }
 
-.tab-title::after {
-	position: absolute;
-	top: 50%;
-	left: 93%;
-	transform: translateX(-50%) translateY(-50%);
-	font-weight: 800;
-	content: '+';
+.submenuItems {
+  display: none;
+  li {
+    margin: 1.1rem 0.9rem 1.2rem 0.9rem;
+  }
 }
 
-.tab-content {
-	margin:1.1rem 0.9rem 1.2rem 0.9rem;
-	/* Поля вокруг текста */
-}
 
-.tab :checked+.tab-title::after {
-	content: 'х';
-	font-weight: 300;
-	opacity: 0.5;
+/*mi styl*/
+.price-list {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
-
-.tab :checked~.tab-content {
-	display: block;
-	/* Показываем содержимое */
+.price-list-discription {
+  font-weight: 400;
 }
-.price{
-	&-list{
-		font-size: 1.2rem;
-		font-weight: 500;
-		&-discription{
-			font-weight: 400;
-		}
-	}
+.tab {
+	margin-bottom: 10px;
+	margin-left: 4.6rem;
+	margin-right: 7.2rem;
+	border: 1px solid #e9eaec;
+	color: #ffff;
 }
 /*footer*/
 footer{
