@@ -135,6 +135,15 @@ ul {
           transform: rotate(45deg);
   opacity: 0.7;
 }
+.fa-add:before,
+.fa-plus:before {
+  content: "\2b";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
 .accordion-menu li:last-child .dropdownlink {
   border-bottom: 0;
 }
@@ -152,12 +161,14 @@ ul {
 }
 .dropdownlink i {
   position: absolute;
-  top: 17px;
-  left: 16px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 .dropdownlink .fa-chevron-down {
   right: 12px;
-  left: auto;
+  left: 90%;
 }
 .submenuItems {
   display: none;
@@ -171,13 +182,15 @@ ul {
   font-weight: 500;
 }
 .price-list-discription {
+  font-size: 1.2rem;
+  line-height: 1.4;
   font-weight: 400;
 }
 .tab {
   margin-bottom: 10px;
   margin-left: 4.6rem;
   margin-right: 7.2rem;
-  border: 1px solid #e9eaec;
+  border: 1px solid #ffff;
   color: #ffff;
 }
 /*footer*/
